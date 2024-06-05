@@ -50,6 +50,7 @@ export const descNums = [
 export const ServicesData = [
   {
     img: neurology,
+
     title: "Neurology",
     id: "neurology",
     heading: "Neurology Department",
