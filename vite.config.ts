@@ -13,5 +13,5 @@ export default defineConfig({
       },
     ],
   },
-  base: "/shiv-shakti-hospital",
+  base: "./",
 });
