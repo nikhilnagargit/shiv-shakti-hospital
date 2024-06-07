@@ -4,23 +4,23 @@ import {
   BsLinkedin,
   BsTwitter,
   BsGithub,
-} from 'react-icons/bs';
+} from "react-icons/bs";
 const SocialsDiv = () => {
   return (
     <div className="flex gap-3 my-3 text-2xl ml-1">
-      <a target="_blank" href="https://www.linkedin.com/in/letodiani-roma/">
+      {/* <a target="_blank" href="https://www.linkedin.com/in/letodiani-roma/">
         <BsLinkedin />
       </a>
       <a target="_blank" href="https://github.com/RomaLetodiani">
         <BsGithub />
-      </a>
-      <a target="_blank" href="https://www.facebook.com/LetodianiRoma/">
+      </a> */}
+      <a target="_blank" href="https://www.facebook.com/">
         <BsFacebook />
       </a>
-      <a target="_blank" href="https://www.instagram.com/roma.letodiani/">
+      <a target="_blank" href="https://www.instagram.com/">
         <BsInstagram />
       </a>
-      <a target="_blank" href="https://twitter.com/l3todianiroma">
+      <a target="_blank" href="https://twitter.com/">
         <BsTwitter />
       </a>
     </div>

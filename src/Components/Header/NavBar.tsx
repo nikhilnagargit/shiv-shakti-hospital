@@ -5,7 +5,7 @@ import { useState } from "react";
 import useMediaQuery from "@/Hooks/useMediaQuery";
 
 import Links from "./Links";
-import Button from "../UI/Button";
+
 type Props = {
   flexBetween: string;
   selectedPage: SelectedPage;
@@ -26,7 +26,13 @@ const NavBar = ({ flexBetween, selectedPage, setSelectedPage }: Props) => {
               setSelectedPage={setSelectedPage}
             />
           </div>
-          <Button>Log In</Button>
+
+          <div className=" flex flex-col justify-center items-center">
+            <div>Emergency/Ambulance:</div>
+            <span className="animate-pulse text-indigo-500 bg-yellow-200 rounded-xl px-2">
+              +91-7014696264
+            </span>
+          </div>
         </div>
       )}
       {!isAboveMediumScreens && (

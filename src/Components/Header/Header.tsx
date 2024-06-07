@@ -28,7 +28,11 @@ const Header = () => {
         isTopOfPage ? "" : "bg-[#84ceff]"
       } transition fixed top-0 z-30 w-full p-5 md:px-16`}
     >
-      <img className="w-10 sm:w-20" src={Logo} alt="Logo" />
+      <div className="flex items-center gap-3">
+        <img className="w-10 sm:w-20" src={Logo} alt="Logo" />
+        <div className="font-bold uppercase text-xl">Shiv Shakti Hospital</div>
+      </div>
+
       <NavBar
         flexBetween={flexBetween}
         selectedPage={selectedPage}

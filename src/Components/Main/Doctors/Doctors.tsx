@@ -1,6 +1,6 @@
-import { DoctorsData } from '@/Components/Shared/Consts';
-import SectionWrapper from '../SectionWrapper';
-import Doctor from './Doctor';
+import { DoctorsData } from "@/Components/Shared/Consts";
+import SectionWrapper from "../SectionWrapper";
+import Doctor from "./Doctor";
 
 const Doctors = () => {
   return (
@@ -13,6 +13,10 @@ const Doctors = () => {
           <Doctor key={index} doc={doctor} />
         ))}
       </div>
+      <div className="mb-5 text-xs sm:text-base md:text-lg">
+        {DoctorsData.desc1}
+      </div>
+
       <h4 className="text-3xl tracking-wider font-bold text-center my-10 md:mt-20">
         {DoctorsData.heading2}
       </h4>

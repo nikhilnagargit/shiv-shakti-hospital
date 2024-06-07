@@ -22,15 +22,15 @@ import user3 from "@/assets/Images/Users/user3.jpg";
 
 import logo from "@/assets/Images/logo.png";
 
-export const links = ["Home", "Doctors", "Services", "Reviews"];
+export const links = ["Home", "Services", "Doctors", "Reviews"];
 
 export const descNums = [
   {
-    num: "500+",
+    num: "5+",
     text: "Expert Doctors",
   },
   {
-    num: "20k+",
+    num: "2000+",
     text: "Happy Patients",
   },
   {
@@ -38,12 +38,12 @@ export const descNums = [
     text: "Emergency Service",
   },
   {
-    num: "100+",
+    num: "10+",
     text: "Operation Theatres",
   },
   {
-    num: "850+",
-    text: "Hospital Rooms",
+    num: "10+",
+    text: "Hospital Beds",
   },
 ];
 
@@ -51,9 +51,9 @@ export const ServicesData = [
   {
     img: neurology,
 
-    title: "Neurology",
-    id: "neurology",
-    heading: "Neurology Department",
+    title: "OPD",
+    id: "opd",
+    heading: "OPD (General Medicine)",
     texts: [
       "Expert neurological consultations",
       "Comprehensive brain and nerve care",
@@ -66,9 +66,9 @@ export const ServicesData = [
   },
   {
     img: cardiology,
-    title: "Cardiology",
-    id: "cardiology",
-    heading: "Cardiology Department",
+    title: "IPD",
+    id: "ipd",
+    heading: "IPD Department",
     texts: [
       "Electrocardiogram (ECG)",
       "Echocardiogram",
@@ -83,8 +83,8 @@ export const ServicesData = [
   },
   {
     img: orthopedics,
-    title: "Orthopedics",
-    id: "orthopedics",
+    title: "ICU",
+    id: "icu",
     heading: "Orthopedics Department",
     texts: [
       "Orthopedic surgery and joint replacements",
@@ -98,9 +98,9 @@ export const ServicesData = [
   },
   {
     img: surgery,
-    title: "Surgery",
-    id: "surgery",
-    heading: "Surgery Department",
+    title: "Consultation",
+    id: "consultation",
+    heading: "Consultation Department",
     texts: [
       "Minimally invasive and laparoscopic surgery",
       "Gastrointestinal surgery and endoscopy",
@@ -113,9 +113,9 @@ export const ServicesData = [
   },
   {
     img: dentistry,
-    title: "Dentistry",
-    id: "dentistry",
-    heading: "Dentistry Department",
+    title: "Pharmacy",
+    id: "pharmacy",
+    heading: "Pharmacy Department",
     texts: [
       "Routine dental check-ups and cleanings",
       "Cosmetic dentistry and teeth whitening",
@@ -128,9 +128,9 @@ export const ServicesData = [
   },
   {
     img: radiology,
-    title: "Radiology",
-    id: "radiology",
-    heading: "Radiology Department",
+    title: "Laboratory",
+    id: "laboratory",
+    heading: "Laboratory Department",
     texts: [
       "Advanced diagnostic imaging services",
       "Mammography and breast health screening",
@@ -143,9 +143,9 @@ export const ServicesData = [
   },
   {
     img: urology,
-    title: "Urology",
-    id: "urology",
-    heading: "Urology Department",
+    title: "Ambulance",
+    id: "ambulance",
+    heading: "Ambulance Department",
     texts: [
       "Urinary tract and kidney evaluations",
       "Urologic surgery and stone removal",
@@ -205,8 +205,8 @@ export const DoctorsData = {
   doctors: [
     {
       img: doc1,
-      name: "Dr. John Smith",
-      job: "Cardiologist",
+      name: "Dr. Suresh Nagar",
+      job: "Chief Managing Director & Consultant Physician",
     },
     {
       img: doc2,
@@ -224,8 +224,10 @@ export const DoctorsData = {
       job: "Neurologist",
     },
   ],
+  desc1:
+    "Dr. Suresh Nagar is a physician with over 3 years of experience in internal medicine patient case. He completed his MBBS from Sardar Patel Medical College, Bikaner in 2017. He has done MD(medicine) from JLN college Ajmer in 2023. He has done his Senior Residencship from RUHS medical college associate hospital in 2022. He has experties in life style disease like diabetes, Hyperthesior , thiroid disorder and all complicated medical diseases involving multiple organs in intestive care.",
   heading2: "Who Are We?",
-  desc: "A collaborative hospital service website is a digital platform that brings together healthcare professionals, patients and administrators to streamline and enganhe the delivery of healthcare services. This innovative platform allows for seamless communication and coordination among healthcare teams, enabling them to provide more efficient and personalized care to patients.",
+  desc: "Shive Shakti Hospital is fully dedicated to treat patients with moto of keeping you well and  enabling them to provide more efficient and personalized care.",
   img: Banner2,
 };
 
@@ -255,11 +257,14 @@ export const FeedbackData = {
 
 export const FooterData = {
   logo: logo,
-  addresses: ["4517 Washington Ave", "Manchester, Kentucky 39495"],
-  phone: "+1 (505) 555-0125",
+  addresses: [
+    "Plot Number - 52, Subhash Colony",
+    "In front of co-operative bank, Nainwa 323801",
+  ],
+  phone: "+07437-294141,  +91 7014696264",
   departments: [
     "Cardiology",
-    "Dentistry",
+    "Medicine",
     "Neurology",
     "Orthopedics",
     "Surgery",

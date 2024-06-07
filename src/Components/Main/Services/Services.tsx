@@ -1,15 +1,15 @@
-import { ServicesData } from '@/Components/Shared/Consts';
-import Button from '@/Components/UI/Button';
-import Service from './Service';
-import { useState } from 'react';
-import { SelectedService } from '@/Components/Shared/Types';
-import ListItem from './ListItem';
-import Banner1 from './Banner1';
-import SectionWrapper from '../SectionWrapper';
+import { ServicesData } from "@/Components/Shared/Consts";
+import Button from "@/Components/UI/Button";
+import Service from "./Service";
+import { useState } from "react";
+import { SelectedService } from "@/Components/Shared/Types";
+import ListItem from "./ListItem";
+import Banner1 from "./Banner1";
+import SectionWrapper from "../SectionWrapper";
 
 const Services = () => {
   const [SelectService, setSelectService] = useState<SelectedService>(
-    SelectedService.Cardiology
+    SelectedService.OPD
   );
 
   const selectedServiceData = ServicesData.find(
