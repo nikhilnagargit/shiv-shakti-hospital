@@ -1,9 +1,9 @@
 import {
   BsFacebook,
   BsInstagram,
-  BsLinkedin,
+  // BsLinkedin,
   BsTwitter,
-  BsGithub,
+  // BsGithub,
 } from "react-icons/bs";
 const SocialsDiv = () => {
   return (

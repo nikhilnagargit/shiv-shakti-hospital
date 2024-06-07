@@ -1,5 +1,5 @@
 import SocialsDiv from "../Socials/SocialsDiv";
-import Input from "../UI/Input";
+// import Input from "../UI/Input";
 
 const ContactDiv = () => {
   return (
